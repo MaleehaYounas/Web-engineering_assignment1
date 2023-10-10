@@ -1,0 +1,324 @@
+
+.bg{ 
+    background-color: hsl(180, 52%, 96%);
+}
+body{
+    font-family: League Spartane, sans-serif;
+    font-size: 15px;
+}
+ 
+.header-img{
+    height:100px;
+     width:100%;
+    background-color: hsl(180, 61%, 36%);
+}
+@media screen and (max-width: 375px) { 
+.header-img{
+    height:50px;
+     width:100%;
+    background-color: hsl(180, 61%, 36%);
+  }
+
+}
+
+@font-face{
+    font-family: League Spartan;
+    src: url("League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
+}
+
+.flex{
+    display: flex;
+}
+
+.filter-section{
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.filter-box{
+    height:40px;
+    width: 65%;
+    background-color: white;
+    transform: translateY(-27px);
+    box-shadow: 3px 3px 3px 3px rgba(183, 179, 179, 0.3);
+    text-align: center;
+}
+
+
+.filter-text-container{
+    height:40px;
+    width: 100%;
+    border: bisque;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 375px) { 
+    
+.filter-text-container{
+    height:25px;
+    width: 100%;
+    border: bisque;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+}
+
+@media screen and (max-width: 375px) { 
+    .filter-box{
+    height:25px;
+    width: 70%;
+    background-color: white;
+    transform: translateY(-15px);
+    box-shadow: 3px 3px 3px 3px rgba(183, 179, 179, 0.3);
+    text-align: center
+    }
+    }
+
+    .flex {
+        display: flex;
+    
+    }
+
+    .grid{
+        display: grid;
+    }
+
+.job-details-section
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.brand-img-size{
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width:375px)
+{
+    .brand-img-size{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+/* Style for individual job cards */
+.job-card {
+    
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 740px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+ 
+@media screen and (max-width:375px) {
+    .job-card {
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 3px;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+}
+.flex ul{
+    padding: 0;
+    margin: 0;
+}
+
+    .flex ul li {
+        text-decoration: none;
+        list-style-type: none;
+        padding-right: 10px;
+    }
+    
+    .img-radius {
+        border-radius: 25px;
+    }
+
+    @media screen and (max-width:375px) {
+        .image-translation {
+            transform: translateY(-75px);
+          }
+        }
+    
+    
+    .flex1 {
+        flex-direction: column;
+        align-items: start;
+    }
+
+   .job-list{
+    display: flex;
+    flex-direction: column; /* items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 10px;
+   }
+   
+    .grid-position-tools-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    @media screen and (max-width:375px){
+    .tools-languages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+    }
+    @media screen and (max-width:375px) {
+        .grid-position-tools-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 3px;
+            margin-bottom :5px;
+        }
+        }
+    
+        @media screen and (max-width:375px) 
+        {
+            .grid-tools{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+                margin: 0;
+                align-content: center;
+                gap: 3px;
+                justify-content: start; 
+              
+            }   
+        }
+
+      
+    .grid-tools{
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        justify-content: end;
+        grid-template-rows: auto;
+        align-content: center;
+        gap: 5px;
+    }
+
+    .grid-item-position{
+         font-size: 15px;
+    }
+   
+    .tools-lang-container{
+        
+        background-color: hsl(180, 52%, 96%);
+        color: hsl(180, 29%, 50%);
+        padding: 5px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .tools-lang-container:hover{
+        background-color:hsl(180, 29%, 50%);
+        color: hsl(180, 52%, 96%);
+    }
+
+    
+    .company-text{
+        color: hsl(180, 29%, 50%);
+        font-size:15px ;
+        font-weight: 500;
+    }
+
+    .job-position-text{
+        font-size:17px ;
+        font-weight:700;
+    }
+    .job-position-text:hover{
+        color: hsl(180, 29%, 50%);
+    }
+    .last-row{
+       color: grey;
+    }
+   
+    .padding-left-10{
+        padding-left: 10px;
+    }
+      
+/*////////////////////////////////////////////*/
+
+.form-container{
+    padding:70px;
+    border: 2px solid hsl(180, 29%, 50%);
+    background-color: white;
+    border-radius: 3px;
+}
+@media screen and (max-width:375px) 
+{.form-container{
+    padding:5px;
+    border: 2px solid hsl(180, 29%, 50%);
+    background-color: white;
+    border-radius: 3px;
+}}
+
+.form-allignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: 500w;
+    color: hsl(180, 29%, 50%);
+}
+
+Button{
+    padding: 5px;
+    background-color: hsl(180, 29%, 50%);
+    color:  hsl(180, 52%, 96%);
+    border: 1px solid  hsl(180, 29%, 50%);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+Button:hover {
+    background-color: hsl(180, 52%, 96%);
+    color:  hsl(180, 29%, 50%);
+}
+.text-center{
+    text-align: center;
+}
+
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+@media screen and (max-width:375px) 
+{
+.horizontal-line{
+    border-bottom: 1px solid grey;
+}
+}
